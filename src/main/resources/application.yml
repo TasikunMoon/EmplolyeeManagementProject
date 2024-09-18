@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: employee
+
+  datasource:
+    url: jdbc:postgresql://localhost:5434/dev
+    username: admin
+    password: tmoon@1997
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      format_sql: true
+    show-sql: true
+    open-in-view: false
+server:
+  port: 8087
+
+  error:
+    include-message: always
